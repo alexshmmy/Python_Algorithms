@@ -1,6 +1,13 @@
-# computation of sequnses of nested radicals
+# computation of sequenses of nested radicals
+#
+# 3 type of sequences:
+# Type 1: (positive sign)
 # sqrt(n+sqrt(n+sqrt(n+...)))
+#
+# Type 2: (negative sign)
 # sqrt(n-sqrt(n-sqrt(n-...)))
+#
+# Type 3: (alternating sign)
 # sqrt(n-sqrt(n+sqrt(n-...)))
 
 import math
